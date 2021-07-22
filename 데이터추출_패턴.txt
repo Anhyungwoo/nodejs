@@ -1,0 +1,24 @@
+<div id='test'>
+<div class='..' data-price='' id='test'>
+<div class=".." data-price='' id="test">
+<div id='test' class='' ... >
+<DIV ID=test>
+/<[^S+]\s*\S*\sid=["']?([^"'>]+)["']?[^>]*>/igm;
+/<[^S+]\s+id=["']?([^"'>]+)["']?[[^>]*>/
+/<[a-z0-9]+\s?.*\s+id=["']?([^"'>]+)["']?[^>]*>/igm;
+
+
+<div class="클래스명">
+<div class='클래스명'>
+<div class=클래스명>
+
+ /<[a-z0-9]+\s*.*\s+class=["']?([^"'>]+)["']?[^>]*>/;
+ 
+ a태그의 href 속성의 값 추출
+ 
+ <a href="링크 URL">
+ <a href='링크 URL'>
+ <a href=링크 URL>
+ <a class='...' id='...' ...href='링크 URL'>
+ 
+  /<a.*\s+href=["']?([^"'>]+)["']?[^>]*>/igm;
