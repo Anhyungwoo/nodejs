@@ -1,0 +1,21 @@
+{
+  "name": "basic_express_example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+	"dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Ahn.hyungwoo"
+  },
+  "author": "Ahn.hyungwoo",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
