@@ -1,0 +1,49 @@
+1. npm init - package.json
+	scripts - 사용자 정의 명령어
+			- 개발중 -> nodemon
+			- 서비스중 -> pm2, NODE_ENV - 환경변수 production ( 로그기록, DB 계정 설정)
+			
+			
+2. 모듈(패키지) 설치
+	express morgan dotenv cookie-parser express-session nunjucks pm2 cross-env winston
+	
+	npm i -D nodemon
+	
+
+3. app.js
+	미들웨어 + 라우터	
+	
+	웹
+	Request <---> Response
+	(요청)					(응답)
+	사용자쪽에서		서버쪽에서 사용자 요청에 따른
+	서버로 요청			자원을 출력(HTML, 이미지, XML, 비디오 .. . .)
+	브라우저
+	Request Header
+	langueage - en		영문페이지
+	langueage - ko 	한국어페이지
+	
+	요청 URL
+	환경에 대한 정보
+	
+	요청방식
+	요청데이터(사용자가 입력한 데이터)
+	
+	
+	Request - 미들웨어 - Response
+	
+	요청 -> 미들웨어 처리 -> 응답(출력) -> 종료
+						 next()		  next()		
+	요청 -> 미들웨어1 -> 미들웨어2 -> 미들웨어3... -> 응답(res.send, res.json, res.render)
+	
+*요청 방식에 대한 부분*
+.GET 방식 - 브라우저 주소창에 노출되는 형태 <form method = 'get'>
+.POST 방식 - 내부적으로 처리되는 형태(Request Header) <form method = 'post'>
+
+
+4. 필수 모듈 ( 패키지 ) 
+
+
+
+
+
